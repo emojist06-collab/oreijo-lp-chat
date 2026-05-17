@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export const runtime = "edge";
-
 const SYSTEM_PROMPT = `あなたは「お礼状講座2026夏」の案内スタッフです。
 講師は楽書心（らくがきハート）主宰の中田明美先生です。
 訪問者の質問に優しく・丁寧に答えて、申込に自然につなげてください。

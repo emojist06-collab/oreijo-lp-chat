@@ -1,6 +1,10 @@
 {
-  "name": "721327-lp-chat",
+  "name": "oreijo-lp-chat",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
-  "pages_build_output_dir": ".open-next"
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
 }
